@@ -1,0 +1,33 @@
+:root {
+  background-color: #f0ead6;
+  font-size: 72.5%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0ead6;
+}
+
+h1 {
+  font-size:5.5rem;
+}
+
+/*Utilities */
+
+.container {
+  width: 100vw;
+  height:100vh;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+#game-button:hover {
+  opacity: 1;
+}

@@ -1,0 +1,17 @@
+.choice-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.5rem;
+  background-color: white;
+  border: 0.1rem solid rgba(86, 165, 235, 0.25);
+}
+
+.choice-container: hover {
+  cursor: pointer;
+}
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: blue;
+  color: white
+}
